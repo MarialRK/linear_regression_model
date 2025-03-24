@@ -1,39 +1,113 @@
-Crop Yield Prediction Project
-This repository contains the complete Crop Yield Prediction Project, developed as part of a summative assignment. The project combines Linear regression model development, FastAPI development, and mobile app implementation to predict crop yields based on environmental and agricultural factors.
+# Crop Yield Prediction Project 🌾📊
 
-Project Overview
-Task 1: Linear Regression Model Development
+This repository contains a comprehensive Crop Yield Prediction System developed as part of a summative assignment. The project combines machine learning model development, API implementation, and mobile app integration to predict crop yields based on environmental and agricultural factors.
 
-Built and optimized machine learning models to predict crop yield using the Crop Yield Prediction Dataset from Kaggle. https://www.kaggle.com/datasets/mrigaankjaswal/crop-yield-prediction-dataset/data
-Compared Linear Regression, Decision Tree, and Random Forest algorithms to select the best model.
-Google collab of notebook: https://colab.research.google.com/drive/1AXeDtGu2T0aw0SwvLJK44nELWdK6eSSg?usp=sharing Read more on it in the READMe inside its directory
-Task 2: FastAPI Development
+## Project Overview
 
-Developed a FastAPI for making predictions using the trained model.
-Implemented input validation with Pydantic and tested the API using Swagger UI.
-Deployed the API on Render. https://fastapi-rm5x.onrender.com/docs Read more on it in the READMe inside its directory
-Task 3: Mobile App Development
+The system consists of three main components:
 
-Developed a Flutter mobile app that connects to the FastAPI and makes crop yield predictions.
-The Figma design: https://www.figma.com/design/MxoAOSFXKB7azCbUcSEhEW/Wildlife-Activity-Predictor?node-id=0-1&t=qZiQdCtCC99BJ7tF-1 Read more on it and about how to run it in the READMe inside its directory
-Video link: https://www.youtube.com/shorts/-o1_xM6pWrY
+1. **Machine Learning Model Development** - Linear Regression model trained on crop yield data
+2. **API Development** - FastAPI backend for serving predictions
+3. **Mobile Application** - Flutter app for user interaction
 
-Dataset
-The dataset used is the Crop Yield Prediction Dataset from Kaggle. It contains data about:
+![System Architecture](https://i.imgur.com/JfQv3lE.png) *Add architecture diagram if available*
 
-Area (Country)
-Item (Crop)
-Year
-hg/ha_yield: target variable, yield in hectograms per hectare
-average_rain_fall_mm_per_year
-pesticides_tonnes
-avg_temp
-Technologies Used
-Machine Learning: Python, scikit-learn, pandas, numpy
-Backend: FastAPI, Pydantic, Render deployment
-Mobile App: Flutter, Dart
-Others: Swagger UI, MinMaxScaler, pickle for saving models
-Setup Instructions
-Clone the repository:
-git clone https://github.com/Joh-Ishimwe/linear_regression_model
-cd summative
+## Key Features
+
+- Accurate crop yield prediction based on environmental factors
+- Cross-platform mobile application
+- Scalable API backend
+- Comprehensive model comparison and evaluation
+- User-friendly interfaces (API docs & mobile UI)
+
+## Project Components
+
+### 1. Machine Learning Model Development
+
+**Description**:  
+Developed and optimized machine learning models to predict crop yield using the [Crop Yield Prediction Dataset from Kaggle](https://www.kaggle.com/datasets/mrigaankjaswal/crop-yield-prediction-dataset/data).
+
+**Key Activities**:
+- Compared performance of Linear Regression, Decision Tree, and Random Forest algorithms
+- Feature engineering and data preprocessing
+- Model optimization and evaluation
+- Model serialization for production use
+
+**Notebook**:  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yDNFH5MmWhlc2YvNihdaEhGiwBWxBeIn?authuser=9#scrollTo=vxrvsmBYBzhd)
+
+**Directory**: [`/model_development`](https://github.com/MarialRK/linear_regression_model/tree/main/model_development)
+
+### 2. FastAPI Development
+
+**Description**:  
+Developed a production-ready API for making predictions using the trained model.
+
+**Features**:
+- Input validation with Pydantic
+- Comprehensive API documentation
+- Error handling and logging
+- Deployed on Render cloud platform
+
+**API Documentation**:  
+[![API Docs](https://img.shields.io/badge/API_Docs-Swagger_UI-green)](https://fastapi-rm5x.onrender.com/docs)
+
+**Directory**: [`/api`](https://github.com/MarialRK/linear_regression_model/tree/main/api)
+
+### 3. Mobile App Development
+
+**Description**:  
+Developed a cross-platform mobile application that connects to the prediction API.
+
+**Features**:
+- Intuitive user interface
+- Real-time predictions
+- Responsive design
+- Error handling and loading states
+
+**Design**:  
+[![Figma Design](https://img.shields.io/badge/Design-Figma-orange)](https://www.figma.com/design/MxoAOSFXKB7azCbUcSEhEW/Wildlife-Activity-Predictor?node-id=0-1&t=qZiQdCtCC99BJ7tF-1)
+
+**Demo Video**:  
+[![YouTube Demo](https://img.shields.io/badge/Demo-YouTube-red)](https://www.youtube.com/shorts/-o1_xM6pWrY)
+
+**Directory**: [`/mobile_app`](https://github.com/MarialRK/linear_regression_model/tree/main/mobile_app)
+
+## Dataset
+
+The [Crop Yield Prediction Dataset](https://www.kaggle.com/datasets/mrigaankjaswal/crop-yield-prediction-dataset/data) contains:
+
+- **Area** (Country)
+- **Item** (Crop)
+- **Year**
+- **hg/ha_yield**: Target variable (yield in hectograms per hectare)
+- **average_rain_fall_mm_per_year**
+- **pesticides_tonnes**
+- **avg_temp**
+
+## Technology Stack
+
+**Machine Learning**:
+- Python
+- scikit-learn
+- pandas
+- numpy
+- MinMaxScaler
+- pickle
+
+**Backend**:
+- FastAPI
+- Pydantic
+- Render (deployment)
+- Swagger UI
+
+**Mobile App**:
+- Flutter
+- Dart
+
+## Setup Instructions
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/MarialRK/linear_regression_model.git
+   cd linear_regression_model
