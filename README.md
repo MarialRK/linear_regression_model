@@ -66,7 +66,7 @@ Developed a cross-platform mobile application that connects to the prediction AP
 [![Figma Design](https://img.shields.io/badge/Design-Figma-orange)](https://www.figma.com/design/MxoAOSFXKB7azCbUcSEhEW/Wildlife-Activity-Predictor?node-id=0-1&t=qZiQdCtCC99BJ7tF-1)
 
 **Demo Video**:  
-[![YouTube Demo](https://youtu.be/7mtrlJgmOos?si=4BWwI8CrEX5GK10q)
+[![YouTube Demo] https://youtu.be/7mtrlJgmOos?si=4BWwI8CrEX5GK10q
 
 
 ## Dataset
