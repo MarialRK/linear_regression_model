@@ -10,8 +10,6 @@ The system consists of three main components:
 2. **API Development** - FastAPI backend for serving predictions
 3. **Mobile Application** - Flutter app for user interaction
 
-![System Architecture](https://i.imgur.com/JfQv3lE.png) *Add architecture diagram if available*
-
 ## Key Features
 
 - Accurate crop yield prediction based on environmental factors
@@ -28,7 +26,7 @@ The system consists of three main components:
 Developed and optimized machine learning models to predict crop yield using the [Crop Yield Prediction Dataset from Kaggle](https://www.kaggle.com/datasets/mrigaankjaswal/crop-yield-prediction-dataset/data).
 
 **Key Activities**:
-- Compared performance of Linear Regression, Decision Tree, and Random Forest algorithms
+- Compared the performance of Linear Regression, Decision Tree, and Random Forest algorithms
 - Feature engineering and data preprocessing
 - Model optimization and evaluation
 - Model serialization for production use
@@ -36,7 +34,7 @@ Developed and optimized machine learning models to predict crop yield using the 
 **Notebook**:  
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yDNFH5MmWhlc2YvNihdaEhGiwBWxBeIn?authuser=9#scrollTo=vxrvsmBYBzhd)
 
-**Directory**: [`/model_development`](https://github.com/MarialRK/linear_regression_model/tree/main/model_development)
+
 
 ### 2. FastAPI Development
 
@@ -52,7 +50,6 @@ Developed a production-ready API for making predictions using the trained model.
 **API Documentation**:  
 [![API Docs](https://img.shields.io/badge/API_Docs-Swagger_UI-green)](https://fastapi-rm5x.onrender.com/docs)
 
-**Directory**: [`/api`](https://github.com/MarialRK/linear_regression_model/tree/main/api)
 
 ### 3. Mobile App Development
 
@@ -69,9 +66,8 @@ Developed a cross-platform mobile application that connects to the prediction AP
 [![Figma Design](https://img.shields.io/badge/Design-Figma-orange)](https://www.figma.com/design/MxoAOSFXKB7azCbUcSEhEW/Wildlife-Activity-Predictor?node-id=0-1&t=qZiQdCtCC99BJ7tF-1)
 
 **Demo Video**:  
-[![YouTube Demo](https://img.shields.io/badge/Demo-YouTube-red)](https://www.youtube.com/shorts/-o1_xM6pWrY)
+[![YouTube Demo](https://youtu.be/7mtrlJgmOos?si=4BWwI8CrEX5GK10q)
 
-**Directory**: [`/mobile_app`](https://github.com/MarialRK/linear_regression_model/tree/main/mobile_app)
 
 ## Dataset
 
